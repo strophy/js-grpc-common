@@ -1,5 +1,5 @@
 {
-  "name": "@dashevo/grpc-common",
+  "name": "strophy-grpc-common",
   "version": "0.3.4",
   "description": "Common GRPC library",
   "main": "index.js",
