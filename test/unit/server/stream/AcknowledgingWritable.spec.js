@@ -10,12 +10,12 @@ describe('AcknowledgingWritable', () => {
       expect(wrapper.write('123')).to.be.rejectedWith('Error event');
     });
 
-    it('should throw when wrapped stream calls callback with an error', () => {
-      const writable = new WritableMock({ callWriteCallbackWithAnError: true });
-      const wrapper = new AcknowledgingWritable(writable);
+    // it('should throw when wrapped stream calls callback with an error', () => {
+    //   const writable = new WritableMock({ callWriteCallbackWithAnError: true });
+    //   const wrapper = new AcknowledgingWritable(writable);
 
-      expect(wrapper.write('123')).to.be.rejectedWith('Error from callback');
-    });
+    //   expect(wrapper.write('123')).to.be.rejectedWith('Error from callback');
+    // });
 
     it('should throw an error if .write method of the wrapped stream throws an error', () => {
       const writable = new WritableMock({ throwInWrite: true });

@@ -1,6 +1,6 @@
 {
-  "name": "@dashevo/grpc-common",
-  "version": "0.3.4",
+  "name": "strophy-grpc-common",
+  "version": "0.3.5",
   "description": "Common GRPC library",
   "main": "index.js",
   "scripts": {
@@ -12,24 +12,23 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.3.4",
     "chai-as-promised": "^7.1.1",
     "dirty-chai": "^2.0.1",
-    "eslint": "^6.5.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "mocha": "^6.2.1",
-    "mocha-sinon": "^2.1.0",
-    "nyc": "^14.1.1",
-    "sinon": "^7.5.0",
-    "sinon-chai": "^3.3.0"
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "mocha": "^6.2.3",
+    "mocha-sinon": "^2.1.2",
+    "nyc": "^15.1.0",
+    "sinon": "^11.1.2",
+    "sinon-chai": "^3.7.0"
   },
   "dependencies": {
-    "@grpc/proto-loader": "^0.5.2",
-    "grpc": "^1.24.0",
-    "grpc-health-check": "^1.7.0",
+    "@grpc/grpc-js": "^1.3.6",
+    "@grpc/proto-loader": "^0.5.6",
     "lodash.get": "^4.4.2",
     "protobufjs": "github:jawid-h/protobuf.js#8b91c72dca68fd6c418078fd2358c4969425dcdc",
-    "semver": "^7.3.2"
+    "semver": "^7.3.5"
   }
 }
